@@ -2,6 +2,7 @@ body{
     font-family: sans-serif;
     background: #ffffff;
     margin: 0;
+    padding: 0;
 }
 
 a{
@@ -50,7 +51,7 @@ a button:hover{
 }
 
 footer{
-    position: absolute;
+    margin-top: 100px;
     display: flex;
     bottom: 0;
     left: 0;
@@ -89,14 +90,23 @@ footer{
     font-size: 25px;
 }
 
+.Contenido-Subir_Actividad{
+    bottom: 300px;
+}
+
 /*Descripción*/
 .Descripcion{
     margin-left: 360px;
 }
+
+.Descripcion label{
+    font-size: 20px;
+    margin-left: -20px;
+}
 .Descripcion textarea{
     margin-top: -20px;
     margin-left: 90px;
-    height: 190px;
+    height: 120px;
     width: 700px;
     resize: none;
     background: #d4d4d4;
@@ -104,3 +114,30 @@ footer{
 
 
 /*Agregar Archivo*/
+.Agregar_Archivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LogoIcono img{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 75px;
+    width: 75px;
+}
+
+.Mensaje-1A{
+    margin-left: 100px;
+    margin-top: -100px;
+    font-size: 14px;
+}
+
+.Body-Agregar_Archivo{
+    margin-top: 40px;
+    border: 1px dashed rgb(116, 115, 115);
+    background: #d4d4d4;
+    height: 150px;
+    width: 500px;
+}
+

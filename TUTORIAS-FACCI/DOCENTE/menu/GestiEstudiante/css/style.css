@@ -10,9 +10,7 @@
 @import url(login.css);
 @import url(docente.css);
 @import url(estudiante.cs);
-@import url(actividades.css);
-@import url(login-studen.css);
-@import url(login-teacher.css);
+
 :root {
   --color-rose-red: #bc0653;
   --color-dark: #000000;
@@ -37,7 +35,16 @@ body {
   padding: 0;
 }
 
-
+footer {
+  margin: 0;
+}
+index {
+  background-image: url(/TUTORIAS-FACCI/IMG/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 78vh;
+  height: 105vh;
+}
 
 .item {
   height: 100vh;
@@ -72,13 +79,3 @@ main .sobre-nosotros{
   left: 1470px;
   top: 101px;
 }
-
-.titulo1{
-  font-family: var(--fuente-1);
-  color: var(--color-dark);
-}
-
-.about-services{
-  display: inline-block;
-}
-
